@@ -1,6 +1,6 @@
 title: Ollie Olby
-baseurl: "/website-no-ai"
-url: ""
+baseurl: ""
+url: "https://ollieolby.co.uk"
 markdown: kramdown
 exclude:
   - Gemfile
