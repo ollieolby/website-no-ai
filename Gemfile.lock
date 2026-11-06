@@ -1,0 +1,16 @@
+GEM
+  specs:
+    webrick (1.9.2)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  webrick (~> 1.9)
+
+CHECKSUMS
+  webrick (1.9.2)
+
+BUNDLED WITH
+  4.0.9

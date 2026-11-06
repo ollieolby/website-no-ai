@@ -1,0 +1,8 @@
+title: Ollie Olby
+baseurl: "/website-no-ai"
+url: ""
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

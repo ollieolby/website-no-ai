@@ -1,3 +1,7 @@
+---
+permalink: /blog/
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,16 +16,16 @@ body {
 </head>
 
 <nav>
-  <a href="../hero.html">Home</a>
-  <a href="../blog/blog_main.html">Blog</a>
-  <a href="../lines/lines_main.html">Lines</a>
+  <a href="{{ '/' | relative_url }}">Home</a>
+  <a href="{{ '/blog/' | relative_url }}">Blog</a>
+  <a href="{{ '/lines/' | relative_url }}">Lines</a>
   <!-- <a href="../apps/apps_main.html">Apps</a> -->
 </nav>
 
 <h1>Blog</h1>
 
 <article>
-  <h2><a href="post_1.html">Be Mediocre</a></h2>
+  <h2><a href="{{ '/blog/mediocre/' | relative_url }}">Be Mediocre</a></h2>
   <p>In a world of AI perfection, be mediocre.</p>
-  <a href="post_1.html"></a>
+  <a href="{{ '/blog/mediocre/' | relative_url }}"></a>
 </article>
